@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Scrollbar custom styling matching Sophisticated Dark theme */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #050505;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #1A1A1A;
+    border-radius: 3px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #00D1FF;
+  }
+}
+
+/* Base custom definitions */
+body {
+  background-color: #050505;
+  color: #E0E0E0;
+}

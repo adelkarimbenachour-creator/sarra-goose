@@ -1,0 +1,6 @@
+{
+  "name": "Sarra Control for Goose",
+  "description": "Un assistant vocal de type Sarra servant d'interface de contrôle pour l'agent Goose, avec un simulateur interactif et le code Python prêt à l'emploi.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
